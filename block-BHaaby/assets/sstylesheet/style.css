@@ -1,0 +1,165 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* -------------RESET STYLES */
+body{
+    background-color: rgb(212,206,167);
+}
+header{
+    max-width: 100%;
+    border: 1px solid black;
+    background-color: rgb(249,97,21);
+    height: 75px;
+}
+
+.container{
+    max-width: 70%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav ul{
+    margin-top:20px;
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    
+}
+.nav a{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    margin-left: 80px;
+}
+.nav .margin-zero{
+    margin-left: 0px;
+}
+
+.box ol {
+    list-style-type: decimal;
+    font-size: 20px;
+    list-style-position: outside;
+}
+.box{
+    width: 25%;
+    height: 520px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0,89,121);
+    border-radius: 10px;
+    color: white;
+    box-shadow: 8px 6px 8px rgba(0,0,0,0.8);
+}
+.box ol li{
+    margin-top: 20px;
+}
+
+.box .outside {
+    /* font-size: 25px; */
+    list-style-position: outside;
+    list-style-type: square;
+    font-size: 20px;
+}
+.box .outside li{
+    margin-top: 20px;
+}
+.box .or-inside{
+    list-style-position: inside;
+}
+.box .ul-inside{
+    list-style-position: inside;
+    list-style-type: disc;
+    margin-left: 25px;
+    
+}
+
+.box .list_img{
+    list-style-image :url(../media/small-check-mark-icon-25.jpg) ;
+    list-style-position: outside;
+}
+
+.box .list_img li{
+    font-size: 20px;
+    margin-top: 25px;
+    
+}
+.dd_dt{
+    margin-top: 50px;
+}
+.discription_term{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+dd{
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 25px;
+    margin-left: 35px;
+    color: rgba(0, 0, 0, 0.74);
+    margin-top: 10px;
+}
+footer{
+    max-width: 100%;
+    background-color: rgb(37,44,34);
+    height: 75px;
+}
+
+footer .nav ul{
+    padding-top: 20px;
+}
+
+
+
+
